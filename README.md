@@ -15,7 +15,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1️⃣ **Clonar el repositorio**:
 
-git clone https://github.com/TU-USUARIO/mcu-next-film-php.git
+git clone https://github.com/Uruena2603/mcu-next-film-php.git
 cd mcu-next-film-php
 
 2️⃣ **Asegurar que PHP esté instalado**:
