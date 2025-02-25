@@ -41,17 +41,16 @@ cd mcu-next-film-php
 
 ## 📂 Estructura del Proyecto
 
-mcu-next-film-php/
-│── index.php # Archivo principal que gestiona la lógica del proyecto
-│── classes/
-│ └─ NextMovie.php # Clase para manejar los datos de la película
-│── templates/
-│ │─ head.php # Plantilla para el encabezado del documento
-│ │─ main.php # Plantilla para mostrar la información de la película
-│ └─ styles.php # Estilos aplicados con PicoCSS
-│── consts.php # Definición de constantes como la API URL
-│── functions.php # Funciones auxiliares para manejo de datos y renderizado
-│── README.md # Documentación del proyecto
+- **index.php**: Archivo principal que gestiona la lógica del proyecto.
+- **classes/**
+  - **NextMovie.php**: Clase para manejar los datos de la película.
+- **templates/**
+  - **head.php**: Plantilla para el encabezado del documento.
+  - **main.php**: Plantilla para mostrar la información de la película.
+  - **styles.php**: Estilos aplicados con PicoCSS.
+- **consts.php**: Definición de constantes como la API URL.
+- **functions.php**: Funciones auxiliares para manejo de datos y renderizado.
+- **README.md**: Documentación del proyecto.
 
 
 ## 📡 API Utilizada
@@ -59,13 +58,14 @@ mcu-next-film-php/
 El proyecto consume la API pública de [whenisthenextmcufilm.com](https://whenisthenextmcufilm.com), que proporciona información sobre las próximas películas de Marvel.
 
 El consumo de esta API se realiza a través de la función `get_data($url)`, que obtiene los datos de la API utilizando `file_get_contents` y los decodifica en un array:
-
+```php
 function get_data($url): array
 {
 $result = file_get_contents($url);
 $data = json_decode($result, true);
 return $data;
 }
+```
 
 ## 🎯 Autor
 
