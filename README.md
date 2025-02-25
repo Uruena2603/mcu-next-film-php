@@ -67,10 +67,18 @@ return $data;
 }
 ```
 
+## 🚀 Créditos
+
+Este proyecto ha sido creado como parte del curso de PHP impartido por **Midudev** en YouTube.
+
+Para obtener una guía detallada sobre el proyecto y su implementación, puedes ver el video del curso proporcionado por Midudev en su canal de YouTube.
+
+- **Curso en YouTube**: [Curso de PHP de Midudev](https://www.youtube.com/watch?v=V2Q1eRUlnlM)
+
 ## 🎯 Autor
 
-💡 Creado por **Tu Nombre o Usuario de GitHub**  
-📧 Contacto: **tu-email@example.com**
+💡 Creado por **Juan Alejandro Urueña Serna**  
+📧 Contacto: **alejourus2003@gmail.com**
 
 Si te gustó el proyecto, ¡dale una estrella ⭐ en GitHub!
 
